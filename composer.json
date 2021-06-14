@@ -6,7 +6,8 @@
         "Telegram",
         "Telegram-API",
         "Telegram-Bot-API",
-        "Telegram-Bot-PHP"
+        "Telegram-Bot-PHP",
+        "Tg"
     ],
     "support": {
         "issues": "https://github.com/mgp25/Telegram-Bot-API/issues",
