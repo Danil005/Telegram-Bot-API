@@ -70,6 +70,20 @@ class telegramBot
 		return $this->sendRequest('sendMessage', $params);
 	}
 
+    /**
+     * Delete Message
+     *
+     * @param $chat_id
+     * @param $message_id
+     *
+     * @return array
+     */
+	public function deleteMessage($chat_id, $message_id)
+    {
+        $params = compact('chat_id', 'message_id');
+        return $this->sendRequest('deleteMessage', $params);
+    }
+
 	/**
 	 * Forward messages of any kind.
 	 *
