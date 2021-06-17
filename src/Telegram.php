@@ -55,12 +55,12 @@ class telegramBot
      *
      * @link https://core.telegram.org/bots/api#sendmessage
      *
-     * @param int            $chat_id
-     * @param string         $text
-     * @param string         $parse_mode
-     * @param bool           $disable_web_page_preview
-     * @param int            $reply_to_message_id
-     * @param KeyboardMarkup $reply_markup
+     * @param int                        $chat_id
+     * @param string                     $text
+     * @param string                     $parse_mode
+     * @param bool                       $disable_web_page_preview
+     * @param int                        $reply_to_message_id
+     * @param string|null|KeyboardMarkup $reply_markup
      *
      * @return Array
      */
@@ -85,14 +85,14 @@ class telegramBot
     }
 
     /**
-     * @param int                 $chat_id
-     * @param int                 $message_id
-     * @param string              $text
-     * @param int|null            $inline_message_id
-     * @param bool|null           $parse_mode
-     * @param mixed|null          $entities
-     * @param bool|null           $disable_web_page_preview
-     * @param KeyboardMarkup|null $reply_markup
+     * @param int                        $chat_id
+     * @param int                        $message_id
+     * @param string                     $text
+     * @param int|null                   $inline_message_id
+     * @param bool|null                  $parse_mode
+     * @param mixed|null                 $entities
+     * @param bool|null                  $disable_web_page_preview
+     * @param string|KeyboardMarkup|null $reply_markup
      *
      * @return mixed
      */
@@ -103,11 +103,11 @@ class telegramBot
     }
 
     /**
-     * @param int                 $chat_id
-     * @param int                 $message_id
-     * @param KeyboardMarkup|null $reply_markup
+     * @param int                        $chat_id
+     * @param int                        $message_id
+     * @param string|KeyboardMarkup|null $reply_markup
      *
-     * @param int|null            $inline_message_id
+     * @param int|null                   $inline_message_id
      *
      * @return mixed
      */
