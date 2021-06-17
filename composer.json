@@ -9,7 +9,7 @@
         "Telegram-Bot-PHP",
         "Tg"
     ],
-    "version": "v1.1.4",
+    "version": "v1.2.0",
     "support": {
         "issues": "https://github.com/mgp25/Telegram-Bot-API/issues",
         "wiki": "https://github.com/mgp25/Telegram-Bot-API/wiki",
