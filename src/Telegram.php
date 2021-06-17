@@ -484,7 +484,11 @@ class telegramBot
      */
     public function getFileData($file_id, $file_path)
     {
-        return file_get_contents($this->baseFileURL . $file_path . '?' . http_build_query(compact('file_id')));
+        try {
+            return file_get_contents($this->baseFileURL . $file_path . '?' . http_build_query(compact('file_id')));
+        } catch(Exception $exception) {
+            print_r($exception);
+        }
     }
 
     /**
